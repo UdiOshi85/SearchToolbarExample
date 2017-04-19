@@ -1,3 +1,12 @@
 <resources>
     <string name="app_name">SearchToolbarApp</string>
+
+    <string name="activity_example">Activity example</string>
+    <string name="fragment_example">Fragment example</string>
+    <string name="activity_with_fragment">Activity with fragment</string>
+    <string name="subtitle_activity_only">Activity only</string>
+    <string name="subtitle_from_fragment">From fragment</string>
+    <string name="search_something">Search something…</string>
+    <string name="expanded">Expanded!</string>
+    <string name="collapsed">Collapsed!</string>
 </resources>
