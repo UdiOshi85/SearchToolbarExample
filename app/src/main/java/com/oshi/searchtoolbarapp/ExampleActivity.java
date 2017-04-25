@@ -75,4 +75,9 @@ public class ExampleActivity extends AppCompatActivity implements SearchAnimatio
     public void onSearchExpanded() {
         searchText.setText(R.string.expanded);
     }
+
+    @Override
+    public void onSearchSubmitted(String query) {
+        searchText.setText(getString(R.string.submitted, query));
+    }
 }

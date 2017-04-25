@@ -81,4 +81,9 @@ public class ExampleFragment extends Fragment implements SearchAnimationToolbar.
     public void onSearchExpanded() {
         searchText.setText(R.string.expanded);
     }
+
+    @Override
+    public void onSearchSubmitted(String query) {
+        searchText.setText(getString(R.string.submitted, query));
+    }
 }

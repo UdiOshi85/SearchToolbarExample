@@ -9,4 +9,5 @@
     <string name="search_something">Search something…</string>
     <string name="expanded">Expanded!</string>
     <string name="collapsed">Collapsed!</string>
+    <string name="submitted">Submitted: %1$s</string>
 </resources>
